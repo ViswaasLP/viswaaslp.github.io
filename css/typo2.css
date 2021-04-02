@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Open+Sans:400,600,700');
+
+
+h1,h2,h3, #single-parallx blockquote, .count_nums, .our-countdown .ds-element-value{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans';
+}

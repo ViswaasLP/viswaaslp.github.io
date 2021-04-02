@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:100,400,700,700i');
+
+h1,h2,h3, #single-parallx blockquote, .count_nums, .our-countdown .ds-element-value{
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans';
+}
+
+

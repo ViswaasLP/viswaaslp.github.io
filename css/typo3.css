@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Pacifico:');
+
+h1,h2, #single-parallx blockquote, .count_nums, .our-countdown .ds-element-value{
+    font-family: 'Pacifico', cursive;
+   text-transform: lowercase;
+}
+
+p{
+    font-family: 'Open Sans';
+}
+
+.text-capitalize{
+   text-transform: lowercase;
+}
