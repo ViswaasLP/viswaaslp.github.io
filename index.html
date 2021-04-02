@@ -12,7 +12,9 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/yellow.css">
 <link rel="icon" href="images/favicon.png">
-
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -22,8 +24,8 @@
 </head>
 <body data-spy="scroll" data-target=".scrolly" data-offset="50">
 
-<!--Preloader-->    
-<div class="loader">
+<!-- Preloader-->    
+<!-- <div class="loader">
    <div class="loader-inner">
       <div class="thecube">
 			<div class="cube c1"></div>
@@ -32,8 +34,8 @@
 			<div class="cube c3"></div>
 		</div>
    </div>
-</div>
-<!-- Preloader ends-->
+</div> -->
+<!-- Preloader ends -->
 <div class="wrapper">
 
 
@@ -92,6 +94,8 @@
                
 
 <!--Ful Screen Section Video with caption-->
+
+
 <section style="background-color: rgba(0, 0, 0, 0.7);" class="full-screen parallax-video parallaxie" id="home">
    <div class="container">
       <div class="row">
@@ -99,10 +103,10 @@
          <div class="col-md-8 col-sm-10">
             <div class="center-block text-center">
                <div class="center-item wow fadeInUp">
-                  <h2 class="text-capitalize top50 bottom35  whitecolor">
+                  <h2 style="font-family: 'Raleway', sans-serif;" class="text-capitalize top50 bottom35  whitecolor">
                      Hello! I'm Viswaas
                   </h2>
-                  <h3 class="text-capitalize top50 bottom35  whitecolor"> I'm a Web <span  id="my_designation"></span></h3>
+                  <h3 style="font-family: 'Raleway', sans-serif;" class=" top50 bottom35  whitecolor"> I'm a <span  id="my_designation"></span></h3>
                   <a href="#portfolio" class="button default scrollings">projects</a> &nbsp; <a href="images/ViswaasLPrabunathan.pdf" download class="button whitehole">Resume</a>
                </div>
             </div>
@@ -111,20 +115,20 @@
       </div>
    </div>
 </section>
-    
 <div  id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/XoJi6t31rOg',containment:'#home',autoPlay:true, loop:true, showControls:false, ratio:16/9, mute:true, startAt:1,  stopAt:238, opacity:0.3}">
 </div>
+
 <!--Ful Screen Section Video ends-->
 
 <!--Gallery Grid-->
 <section id="portfolio" class="padding_bottom">
-   <div class="container">
+   <div style="font-family: 'Raleway', sans-serif;" class="container">
       <div class="row">
          <div class="col-md-3 col-sm-2"> </div>
          <div class="col-md-6 col-sm-8">
             <div class="intro-text center">
                
-               <h2 style="padding-top: 100px;" class="darkcolor heading_space">Portfolio</h2>
+               <h2 style="font-family: 'Raleway', sans-serif; padding-top: 100px;" class="darkcolor heading_space">Portfolio</h2>
             </div>
          </div>
          <div class="col-md-3 col-sm-2"> </div>
@@ -150,7 +154,68 @@
             </div>
          </div>
       </div>
-      <div id="masonry-light" class="cbp bottom30">
+      <div style="font-family: 'Raleway', sans-serif;" id="masonry-light" class="cbp bottom30">
+         
+         <div class="cbp-item web">
+            
+            <div class="image">
+               <img alt="image" src="images/Prison.png">
+            </div>
+            
+            <div style="cursor: pointer;" href="https://vanguardgallery.webflow.io/" class="overlay dark center-block lightcolor">
+               
+               <ul class="social bottom40">
+                  <li><a data-fancybox="gallery" href="images/gallery-light5.jpg"><i class="fa fa-search-plus"></i></a></li>
+                  <li><a href="https://vanguardgallery.webflow.io/"><i class="fa fa-external-link"></i></a></li>
+               </ul>
+               <img src="images/dv_logo.png" style="width: 50%;" alt="">
+               <!-- <h3 class="bottom15"><a data-fancybox="gallery" style="font-family: 'Raleway', sans-serif;" href="images/gallery-light1.jpg">Lorenzo Pagano</a></h3> -->
+               <p style="padding-top:20px; font-family: 'Raleway', sans-serif;">Vanguard Gallery</p>
+            
+            </div>
+         </div>
+         <div class="cbp-item mlai">
+            <div class="image">
+               <img alt="image" src="images/Seam_Carver.jpg">
+            </div>
+            <div class="overlay dark center-block lightcolor">
+               <ul class="social bottom40">
+                  <li><a data-fancybox="gallery" href="images/gallery-light6.jpg"><i class="fa fa-search-plus"></i></a></li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-external-link"></i></a></li>
+               </ul>
+               <img src="images/seam_carving_icon.png" style="width: 30%;" alt="">
+               <!-- <h3 class="bottom15"><a data-fancybox="gallery" style="font-family: 'Raleway', sans-serif;" href="images/gallery-light1.jpg">Lorenzo Pagano</a></h3> -->
+               <p style="padding-top:20px; font-family: 'Raleway', sans-serif;">Image Resizer</p>
+            </div>
+         </div>
+         <div class="cbp-item print game">
+            <div class="image">
+               <img alt="image" src="images/wc2game.jpg">
+            </div>
+            <div class="overlay dark center-block lightcolor">
+               <ul class="social bottom40">
+                  <li><a data-fancybox="gallery" href="images/gallery-light1.jpg"><i class="fa fa-search-plus"></i></a></li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-external-link"></i></a></li>
+               </ul>
+               <img src="images/wc2.png" style="width: 75%;" alt="">
+               <!-- <h3 class="bottom15"><a data-fancybox="gallery" style="font-family: 'Raleway', sans-serif;" href="images/gallery-light1.jpg">Lorenzo Pagano</a></h3> -->
+               <p style="padding-top:20px; font-family: 'Raleway', sans-serif;">WarCraft II Replica</p>
+            </div>
+         </div>
+         <div class="cbp-item print game">
+            <div class="image">
+               <img alt="image" src="images/tunnelman.png">
+            </div>
+            <div class="overlay dark center-block lightcolor">
+               <ul class="social bottom40">
+                  <li><a data-fancybox="gallery" href="images/gallery-light1.jpg"><i class="fa fa-search-plus"></i></a></li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-external-link"></i></a></li>
+               </ul>
+               <img src="images/miner.png" style="width: 40%;" alt="">
+               <!-- <h3 class="bottom15"><a data-fancybox="gallery" style="font-family: 'Raleway', sans-serif;" href="images/gallery-light1.jpg">Lorenzo Pagano</a></h3> -->
+               <p style="padding-top:20px; font-family: 'Raleway', sans-serif;">Tunnel Man</p>
+            </div>
+         </div>
          <div class="cbp-item print logo">
             <div class="image">
                <img alt="image" src="images/gallery-light1.jpg">
@@ -160,8 +225,8 @@
                   <li><a data-fancybox="gallery" href="images/gallery-light1.jpg"><i class="fa fa-search-plus"></i></a></li>
                   <li><a href="javascript:void(0)"><i class="fa fa-external-link"></i></a></li>
                </ul>
-               <h3 class="bottom15"><a data-fancybox="gallery" href="images/gallery-light1.jpg">Lorenzo Pagano</a></h3>
-               <p>printing industry</p>
+               <h3 class="bottom15"><a data-fancybox="gallery" style="font-family: 'Raleway', sans-serif;" href="images/gallery-light1.jpg">Lorenzo Pagano</a></h3>
+               <p style="font-family: 'Raleway', sans-serif;">printing industry</p>
             </div>
          </div>
          <div class="cbp-item web">
@@ -203,32 +268,7 @@
                <p>printing industry</p>
             </div>
          </div>
-         <div class="cbp-item web log print">
-            <div class="image">
-               <img alt="image" src="images/gallery-light5.jpg">
-            </div>
-            <div class="overlay light center-block darkcolor">
-               <ul class="social bottom40">
-                  <li><a data-fancybox="gallery" href="images/gallery-light5.jpg"><i class="fa fa-search-plus"></i></a></li>
-                  <li><a href="javascript:void(0)"><i class="fa fa-external-link"></i></a></li>
-               </ul>
-               <h3 class="bottom15"><a data-fancybox="gallery" href="images/gallery-light5.jpg">Lorenzo Pagano</a></h3>
-               <p>printing industry</p>
-            </div>
-         </div>
-         <div class="cbp-item logo">
-            <div class="image">
-               <img alt="image" src="images/gallery-light6.jpg">
-            </div>
-            <div class="overlay light center-block darkcolor">
-               <ul class="social bottom40">
-                  <li><a data-fancybox="gallery" href="images/gallery-light6.jpg"><i class="fa fa-search-plus"></i></a></li>
-                  <li><a href="javascript:void(0)"><i class="fa fa-external-link"></i></a></li>
-               </ul>
-               <h3 class="bottom15"><a data-fancybox="gallery" href="images/gallery-light6.jpg">Lorenzo Pagano</a></h3>
-               <p>printing industry</p>
-            </div>
-         </div>
+
       </div>
    </div>
 </section>
@@ -292,7 +332,7 @@
                <li><a href="javascript:void(0)"><i class="fa fa-dribbble"></i> </a> </li>
                <li><a href="javascript:void(0)"><i class="fa fa-flickr"></i> </a> </li>
             </ul>
-            <p class="whitecolor top30 wow fadeInUp">Copyright &copy; 2018 Synx. all rights reserved.</p>
+            <p class="whitecolor top30 wow fadeInUp"> &copy; 2021 | Viswaas</p>
          </div>
       </div>
    </div>
