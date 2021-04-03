@@ -3363,9 +3363,31 @@ ul.top-right li a:hover.instagram{
 .icon_box.dark hr{
    background: #979797;
 }
-.icon_box:hover i,  .icon_box:hover h4{
-	color:#ef233c;
+
+/* Hovering Colors */
+.icon_box.orange:hover i,  .icon_box.orange:hover h4{
+	color:#f06529;
 }
+.icon_box.blue:hover i,  .icon_box.blue:hover h4{
+	color:#2965f1;
+}
+.icon_box.yellow:hover i,  .icon_box.yellow:hover h4{
+	color:#F0DB4F;
+}
+.icon_box.purple:hover i,  .icon_box.purple:hover h4{
+	color:#787CB5;
+}
+.icon_box.blue2:hover i,  .icon_box.blue2:hover h4{
+	color:#00749C;
+}
+.icon_box.blue3:hover i,  .icon_box.blue3:hover h4{
+	color:#659bd3;
+}
+.icon_box.dark:hover i,  .icon_box.dark:hover h4{
+	color:#414141;
+}
+/* Hovering Colors */
+
 .icon_box.dark:hover i,  .icon_box.dark:hover h4{
 	color:#414141;
 }
