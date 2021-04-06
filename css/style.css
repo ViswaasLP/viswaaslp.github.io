@@ -4561,7 +4561,7 @@ footer p {
   top: 0;
   width: 100%;
   z-index: 1111;
-  background:#fff;
+  background:rgb(58, 58, 58);
   overflow-x:hidden;
 }
 .loader-block {
@@ -5542,8 +5542,8 @@ footer p {
 
 /* ------Cubes Loading -----*/
 .thecube {
-  width: 60px;
-  height: 60px;
+  width: 120px;
+  height: 120px;
   position: relative;
   -webkit-transform: rotateZ(45deg);
   -ms-transform: rotate(45deg);
@@ -5574,7 +5574,7 @@ footer p {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #ef233c;
+  background-color: #f2c900;
   -webkit-animation: foldthecube 2.4s infinite linear both;
   -o-animation: foldthecube 2.4s infinite linear both;
   animation: foldthecube 2.4s infinite linear both;
