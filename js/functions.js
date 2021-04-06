@@ -618,11 +618,11 @@ jQuery(function ($) {
 
    /*Personal resume page*/
    $('#my_designation').typeIt({
-         speed: 30,
+         speed: 25,
          autoStart: false,
          loop: true,
       })
-      .tiType('Web Developer.')
+      .tiType(' Web Developer.')
       .tiSettings({
          speed: 700
       })
@@ -631,7 +631,7 @@ jQuery(function ($) {
          speed: 50
       })
       .tiDelete()
-      .tiType('Cyclist.');
+      .tiType('n Email Developer.');
 
 
 
