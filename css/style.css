@@ -483,7 +483,11 @@ a.image{
 	color:#fff;
 }
 
+.description{
+    padding: 15px;
+	color:#fff;
 
+}
 /* Social Icons */
 /* ul.social_simple li,
 ul.social li{
@@ -3039,6 +3043,19 @@ ul.top-right li a:hover.instagram{
    -webkit-transition-duration: .3s;
    -o-transition-duration: .3s;
    transition-duration: .3s;
+}
+.cbp-item{
+    background-color: #747474;
+}
+.cbp-item:hover{
+    background-color: rgb(41, 41, 41);
+
+}
+.cbp-item:hover h3{
+    color: #f2c900;
+}
+.cbp-item:hover h4{
+    color: #f2c900;
 }
 .cbp-item:hover .overlay ul{
    opacity: 1;
