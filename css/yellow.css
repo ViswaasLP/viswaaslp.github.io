@@ -97,7 +97,7 @@ ul.social.white li a:focus{
 /*Buttons*/
 .button.default{
     background: #f2c900;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 .button.default:hover, .button.default:focus{
     background: transparent;

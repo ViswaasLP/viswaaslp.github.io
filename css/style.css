@@ -485,7 +485,7 @@ a.image{
 
 
 /* Social Icons */
-ul.social_simple li,
+/* ul.social_simple li,
 ul.social li{
     display: inline-block;
 }
@@ -503,13 +503,13 @@ ul.social_simple li a {
   margin: 0 2px;
 }
 ul.social li a {
-  height: 32px;
+  height: 64px;
   line-height: 30px;
-  width: 32px;
+  width: 128px;
   font-size: 14px;
   border: 1px solid #979797;
   -webkit-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 0;
 }
 ul.social.white li a{
     color: #fff;
@@ -557,7 +557,7 @@ ul.social.dark li a:focus{
     background: #414141;
     border: 1px solid #414141;
     color: #fff;
-}
+} */
 
  
 /*Buttons*/
@@ -4164,7 +4164,7 @@ ul.pagination li.active a:focus {
 }
 .address-bg{
     background: #fff;
-    max-width: 570px;
+    max-width: 500px;
     padding: 3.5rem 1rem 3.5rem 3.5rem;
    position: relative;
 }
