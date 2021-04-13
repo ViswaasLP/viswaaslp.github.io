@@ -618,7 +618,7 @@ jQuery(function ($) {
 
    /*Personal resume page*/
    $('#my_designation').typeIt({
-         speed: 25,
+         speed: 40,
          autoStart: false,
          loop: true,
       })

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poiret+One');
+
+h1,h2,h3, #single-parallx blockquote, .count_nums, .our-countdown .ds-element-value{
+    font-family: 'Poiret One', cursive;
+}
+
+p{
+    font-family: 'Open Sans';
+}
+
+

@@ -3377,6 +3377,10 @@ ul.top-right li a:hover.instagram{
 .icon_box.orange:hover h4{
 	color:#f06529;
 }
+.icon_box.orange2:hover h4{
+	color:#f9a52c
+    ;
+}
 .icon_box.blue:hover h4{
 	color:#2965f1;
 }
@@ -3386,8 +3390,21 @@ ul.top-right li a:hover.instagram{
 .icon_box.purple:hover h4{
 	color:#787CB5;
 }
+.icon_box.pink:hover h4{
+	color:#CD6799;
+}
+.icon_box.maroon:hover h4{
+	color:#800000;
+}
+
 .icon_box.blue2:hover h4{
 	color:#00749C;
+}
+.icon_box.cyan:hover h4{
+	color:#1798c1;
+}
+.icon_box.honalu:hover h4{
+	color:#0868AC;
 }
 .icon_box.blue3:hover h4{
 	color:#88c3fc;
