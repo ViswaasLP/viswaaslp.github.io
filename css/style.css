@@ -3396,7 +3396,12 @@ ul.top-right li a:hover.instagram{
 .icon_box.maroon:hover h4{
 	color:#800000;
 }
-
+.icon_box.black:hover h4{
+	color:#000000;
+}
+.icon_box.green:hover h4{
+	color:#0f7520;
+}
 .icon_box.blue2:hover h4{
 	color:#00749C;
 }

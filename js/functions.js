@@ -622,7 +622,7 @@ jQuery(function ($) {
          autoStart: false,
          loop: true,
       })
-      .tiType(' Web')
+      .tiType(' Developer.')
       .tiSettings({
          speed: 700
       })
@@ -631,7 +631,16 @@ jQuery(function ($) {
          speed: 50
       })
       .tiDelete()
-      .tiType('n Email');
+      .tiType(' Cyclist.')
+      .tiSettings({
+         speed: 700
+      })
+      .tiPause(1000)
+      .tiSettings({
+         speed: 50
+      })
+      .tiDelete()
+      .tiType(' Gamer.');
 
 
 
