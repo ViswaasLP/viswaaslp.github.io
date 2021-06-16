@@ -295,7 +295,9 @@ a.image{
     -o-transform: scale(1.15);
     transform: scale(1.15);
 }
-
+.home-screen{
+    height: 50vh;
+}
 /*Video Player button*/
 .video-btn {
   -webkit-box-align: center;
